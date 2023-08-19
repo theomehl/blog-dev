@@ -1,0 +1,16 @@
+---
+layout: layouts/home.njk
+title: Blog
+description: Blog archive. 
+---
+
+<h2>Archives</h2>
+
+<ol>
+    {% for post in collections.posts %}
+        <li>
+            <h3><a href="{{post.url}}">{{post.data.title}}</a> | <small><time datetime="{{ post.date }}">{{ post.date | readableDate("LLLL dd, yyyy") }}</time></small></h3>
+            <p>{{post.data.description}}</p>
+        </li>
+    {% endfor %}
+</ol>
