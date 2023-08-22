@@ -5,6 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{title}}</title>
     <meta name="description" content="{{description}}">
+    
+    <link rel="preload" as="font" href="fonts/Figtree[wght].woff2" crossorigin>
+    <link rel="preload" as="font" href="fonts/Figtree-Italic[wght].woff2" crossorigin>
+    {% set css %}
+        {% include "src/styles/index.css" %}
+    {% endset %}
+    <style>
+    {{ css | cssmin | safe }}
+    </style>
+
 </head>
 <body>
     <h1>{{title}}</h1>
