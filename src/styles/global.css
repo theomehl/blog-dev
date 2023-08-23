@@ -2,7 +2,6 @@
 
 html {
     font-family: var(--font-base);
-    font-size: var(--text-base);
     color: var(--base-text);
 }
 
@@ -13,6 +12,7 @@ html {
 body {
     line-height: 1.5;
     padding-bottom: 2rem;
+    font-size: var(--text-base);
 }
 
 blockquote, body, dd, dl, figure, h1, h2, h3, h4, p {
@@ -53,4 +53,5 @@ a {
 
 .blog-list {
     padding-left: 0;
+    padding-top: 2rem;
 }
