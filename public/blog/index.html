@@ -3,30 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog</title>
+    <title>Blog Archive</title>
     <meta name="description" content="Blog archive.">
     
     <link rel="preload" as="font" href="fonts/Figtree[wght].woff2" crossorigin>
     <link rel="preload" as="font" href="fonts/Figtree-Italic[wght].woff2" crossorigin>
     
     <style>
-    @font-face{font-family:Figtree;src:url(/fonts/Figtree[wght].woff2) format("woff2");font-style:normal;font-display:swap}@font-face{font-family:Figtree;src:url(/fonts/Figtree-Italic[wght].woff2) format("woff2");font-style:italic;font-display:swap}:root{--base-text:#37363B;--gray-100:#f3f4f6;--gray-200:#e5e7eb;--gray-300:#d1d5db;--gray-400:#9da4b0;--gray-500:#6b7280;--gray-600:#4b5563;--gray-700:#374151;--gray-800:#1f2937;--gray-900:#111827;--text-base:clamp(1.13rem, calc(1.08rem + 0.22vw), 1.25rem);--text-md:clamp(1.41rem, calc(1.35rem + 0.27vw), 1.56rem);--text-lg:clamp(1.76rem, calc(1.69rem + 0.34vw), 1.95rem);--text-xl:clamp(2.20rem, calc(2.11rem + 0.42vw), 2.44rem);--text-2xl:clamp(2.75rem, calc(2.64rem + 0.53vw), 3.05rem);--text-3xl:clamp(3.43rem, calc(3.30rem + 0.66vw), 3.82rem);--text-4xl:clamp(4.29rem, calc(4.13rem + 0.83vw), 4.77rem);--font-base:Figtree,sans-serif}html{font-family:var(--font-base)}
+    @font-face{font-family:Figtree;src:url(/fonts/Figtree[wght].woff2) format("woff2");font-style:normal;font-display:swap}@font-face{font-family:Figtree;src:url(/fonts/Figtree-Italic[wght].woff2) format("woff2");font-style:italic;font-display:swap}:root{--base-text:#37363B;--gray-100:#f3f4f6;--gray-200:#e5e7eb;--gray-300:#d1d5db;--gray-400:#9da4b0;--gray-500:#6b7280;--gray-600:#4b5563;--gray-700:#374151;--gray-800:#1f2937;--gray-900:#111827;--text-base:clamp(1.13rem, calc(1.08rem + 0.22vw), 1.25rem);--text-md:clamp(1.41rem, calc(1.35rem + 0.27vw), 1.56rem);--text-lg:clamp(1.76rem, calc(1.69rem + 0.34vw), 1.95rem);--text-xl:clamp(2.20rem, calc(2.11rem + 0.42vw), 2.44rem);--text-2xl:clamp(2.75rem, calc(2.64rem + 0.53vw), 3.05rem);--text-3xl:clamp(3.43rem, calc(3.30rem + 0.66vw), 3.82rem);--text-4xl:clamp(4.29rem, calc(4.13rem + 0.83vw), 4.77rem);--font-base:Figtree,sans-serif}html{font-family:var(--font-base);font-size:var(--text-base);color:var(--base-text)}*,::after,::before{box-sizing:border-box}body{line-height:1.5;padding-bottom:2rem}blockquote,body,dd,dl,figure,h1,h2,h3,h4,p{margin:0}h1,h2,h3,h4{font-weight:900;line-height:1.1}a{color:var(--base-text)}.nav-list{font-weight:700;display:flex;justify-content:space-between;padding:2rem 0}.nav-list>ul{display:flex;gap:1rem;margin:0;list-style:none}.blog-list{padding-left:0}.container{max-width:min(60ch,100% - 4rem);margin-inline:auto}.flow>*+*{margin-top:var(--flow-space,1em)}hgroup{margin-bottom:3rem}
     </style>
 
 </head>
 <body>
-    
-<h1>Blog</h1>
+    <header class="container">
+        <nav class="nav-list">
+            <a href="/">TM</a>
+            <ul>
+                <li><a href="https://demos.tedmehl.me">demos</a></li>
+                <li><a href="https://js.tedmehl.me">js academy</a></li>
+                <li><a href="/blog">blog</a></li>
+            </ul>
+        </nav>
+    </header>
 
-<h2>Archives</h2>
-
-<ol>
     
-        <li>
-            <h3><a href="/blog/first-post/">My first post on Eleventy!</a> | <small><time datetime="2023-08-19">August 19, 2023</time></small></h3>
-            <p>Just figuring things out. Does this work?</p>
-        </li>
+<main class="container flow">
+    <h1>Blog Archive</h1>
     
-</ol>
+    <ol class="blog-list">
+        
+            <li class="flow">
+                <h2><a href="/blog/first-post/">My first post on Eleventy!</a> | <small><small>
+                    <time datetime="2023-08-19">August 19, 2023</time>
+                </small></small></h2>
+                <p>Just figuring things out. Does this work?</p>
+            </li>
+        
+    </ol>
+</main>
 </body>
 </html>

@@ -1,3 +1,56 @@
+/* Defaults */
+
 html {
     font-family: var(--font-base);
+    font-size: var(--text-base);
+    color: var(--base-text);
+}
+
+*, ::before, ::after {
+    box-sizing: border-box;
+}
+
+body {
+    line-height: 1.5;
+    padding-bottom: 2rem;
+}
+
+blockquote, body, dd, dl, figure, h1, h2, h3, h4, p {
+    margin: 0;
+}
+
+/* Base Element Styles */
+
+h1, h2, h3, h4 {
+    font-weight: 900;
+    line-height: 1.1;
+}
+
+a {
+    color: var(--base-text);
+}
+
+/* Navigation */
+
+.nav-list {
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 0;
+
+
+}
+
+.nav-list > ul {
+    display: flex;
+    gap: 1rem;
+    margin: 0;
+    list-style: none;
+}
+
+
+/* Element Classes */
+
+.blog-list {
+    padding-left: 0;
 }
