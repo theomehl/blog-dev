@@ -24,10 +24,27 @@ blockquote, body, dd, dl, figure, h1, h2, h3, h4, p {
 h1, h2, h3, h4 {
     font-weight: 900;
     line-height: 1.1;
+    text-wrap: balance;
+    --flow-space: 1.25em;
+}
+
+h1 {
+    font-size: var(--text-2xl);
+    line-height: 0.90;
 }
 
 a {
     color: var(--base-text);
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid var(--border-accent);
+}
+
+footer {
+    color: var(--gray-600);
+    margin-top: 6rem;
 }
 
 /* Navigation */
@@ -54,4 +71,10 @@ a {
 .blog-list {
     padding-left: 0;
     padding-top: 2rem;
+}
+
+
+.blog-entry-date {
+    font-weight: 600;
+    font-size: var(--text-base);
 }

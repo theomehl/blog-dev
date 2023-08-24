@@ -25,4 +25,10 @@
     --font-base: Figtree, sans-serif; 
 
 
+    /* Nested Variables */
+
+    --border-accent: var(--gray-400);
+
+    --heading-color: var(--gray-500);
+
 }
