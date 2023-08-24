@@ -44,4 +44,4 @@ Properly called out, I took a step back, simplified and refocused my efforts aro
 
 What you see is the current result. But it's a living work in progress and will probably change over time. 
 
-Anyway. Expect posts about anything and everything in sporatic intervals. 
+Anyway. Expect posts about anything and everything in sporadic intervals. 
