@@ -1,33 +1,47 @@
 ---
-title: My first post on Eleventy!
-description: Just figuring things out. Does this work? 
-date: 2023-08-19
+title: I like to complicate things.
+description: How to turn a hobby into a chore.  
+date: 2023-08-23
 ---
 
-Howdy. This is my first post. How am I doing? 
+It starts with an idea. One of those "wouldn't it be cool if I did..." Then I do some research about the thing (I generally enjoy researching things). Then over the next few days, as I learn more and add on to the idea, I turn something that was once simple into a complicated mess of a project. It no longer feels fun. It becomes a daunting chore full of unnecessary requirements I've placed on myself. 
 
-Hokey religions and ancient weapons are no match for a good blaster at your side, kid. Don't underestimate the Force. I find your lack of faith disturbing. What!? Red Five standing by. Don't be too proud of this technological terror you've constructed. The ability to destroy a planet is insignificant next to the power of the Force.
+## That's how this project started. 
 
-I have traced the Rebel spies to her. Now she is my only link to finding their secret base. As you wish. All right. Well, take care of yourself, Han. __I guess that's what you're best at, ain't it?__ *Dantooine.* They're on Dantooine.
+For a few years now I've wanted to start my own blog. A blog to house the random thoughts or ideas I had, but also a blog that would teach me a thing or two about static site generators (SSGs) and modern web development techniques along the way. 
 
-## I suggest you try it again, Luke. This time, let go your conscious self and act on instinct.
+It wasn't until this summer that I finally got serious about the idea. I started planning a simple site that a few basic requirements. I had my SSG picked out. I had some basic style ideas I would implement. Then I started doing some research. 
 
-In my experience, there is no such thing as luck. I need your help, Luke. She needs your help. I'm getting too old for this sort of thing. She must have hidden the plans in the escape pod. Send a detachment down to retrieve them, and see to it personally, Commander. There'll be no one to stop us this time!
+It went something like this: 
 
-1. What!?
-2. No! Alderaan is peaceful. We have no weapons. You can't possibly…
-3. Alderaan? I'm not going to Alderaan. I've got to go home. It's late, I'm in for it as it is.
+> Oh, I should get a headless content management system so I can have a cool authoring experience. Let me google the best ones. 
+> 
+> Well this one is rated well, but isn't free. This one is too complex. This one is too simple. The editing experience on this one doesn't look that great. If I decide to switch CMS's will all my content be stuck on that platform, or can I migrate? 
+> 
+>Do I even need a headless CMS? 
+>  
+> ...
+> 
+> Maybe I should make a mockup. I wonder what tools exist for making mockups? I've heard figma is used a lot in the UI/UX design space. 
+> 
+> Do they have a free option? Is it even the best tool out there anymore? It's kind of getting old. And Adobe tried to buy it but the deal hasn't gone through yet. What else is out there? 
+> 
+> Penpot is open source, but other people say it's missing some features.
+> 
+> ...
+> 
+> What's the best way to organize my CSS stylesheets? What's standard practice? Let me watch some videos on this.
+> 
+> And so on...
 
-### A tremor in the Force. The last time I felt it was in the presence of my old master.
+## Just like that...
 
-I call it luck. You mean it controls your actions? Hokey religions and ancient weapons are no match for a good blaster at your side, kid. Don't be too proud of this technological terror you've constructed. The ability to destroy a planet is insignificant next to the power of the Force.
+I'd spent weeks of my spare time researching content management systems, pretending I needed to learn a new design tool, spending hours on YouTube watching web development techniques, continuously adding complexity. Not all of what I learned was useless, but most of wasn't contributing towards my goal. Instead it made me tired. It didn't sound fun anymore, but more like work. 
 
-* I have traced the Rebel spies to her. Now she is my only link to finding their secret base.
-* You're all clear, kid. Let's blow this thing and go home!
-* I can't get involved! I've got work to do! It's not that I like the Empire, I hate it, but there's nothing I can do about it right now. It's such a long way from here.
+I was eventually brought back to reality by a Kevin Powell video. To paraphrase: You can spend all this time watching YouTube videos, but at some point you have to start making something.  
 
-I care. So, what do you think of her, Han? I'm surprised you had the courage to take the responsibility yourself. I care. So, what do you think of her, Han? I suggest you try it again, Luke. This time, let go your conscious self and act on instinct.
+Properly called out, I took a step back, simplified and refocused my efforts around the original intent, and got to work. 
 
-In my experience, there is no such thing as luck. You are a part of the Rebel Alliance and a traitor! Take her away! You're all clear, kid. Let's blow this thing and go home! I find your lack of faith disturbing.
+What you see is the current result. But it's a living work in progress and will probably change over time. 
 
-Dantooine. They're on Dantooine. Leave that to me. Send a distress signal, and inform the Senate that all on board were killed. Don't be too proud of this technological terror you've constructed. The ability to destroy a planet is insignificant next to the power of the Force.
+Anyway. Expect posts about anything and everything in sporatic intervals. 
