@@ -3,9 +3,11 @@ layout: layouts/base.njk
 ---
 <main class="container flow">
 
-    <hgroup>
+    <hgroup class="flow">
         <h1>{{title}}</h1>
-        <time datetime="{{ date | readableDate("yyyy-LL-dd") }}">{{ date | readableDate("LLLL dd, yyyy") }}</time>
+        <div>
+            <time datetime="{{ date | readableDate("yyyy-LL-dd") }}">{{ date | readableDate("LLLL dd, yyyy") }}</time>
+        </div>
     </hgroup>
 
     {{ content | safe }}
