@@ -1,6 +1,6 @@
 ---
 title: I like to complicate things.
-description: How to turn a hobby into a chore.  
+description: How to turn a hobby project into a chore.  
 date: 2023-08-23
 ---
 
