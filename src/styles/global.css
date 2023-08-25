@@ -47,6 +47,25 @@ footer {
     margin-top: 6rem;
 }
 
+/* Skip Link */
+
+.skip-link {
+    clip: rect(0,0,0,0);
+    background-color: var(--gray-200);
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+    position: absolute;
+}
+
+.skip-link:focus {
+    clip: unset;
+    padding: 1rem;
+    height: auto;
+    width: auto;
+    position: fixed;
+}
+
 /* Navigation */
 
 .nav-list {
