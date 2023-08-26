@@ -34,7 +34,7 @@ h1 {
 }
 
 a {
-    color: var(--base-text);
+    color: var(--link-text);
 }
 
 hr {
@@ -45,6 +45,10 @@ hr {
 footer {
     color: var(--gray-600);
     margin-top: 6rem;
+}
+
+footer> hr {
+    border-top: 1px solid var(--gray-400);
 }
 
 /* Skip Link */
@@ -95,7 +99,7 @@ footer {
 }
 
 .header-logo-wrapper:hover, .header-logo-wrapper:focus {
-    --header-logo-first-color: var(--base-text);
+    --header-logo-first-color: var(--link-text);
     --header-logo-second-color: #fff;
 }
 
@@ -131,8 +135,6 @@ footer {
 }
 
 
-
-
 /* Element Classes */
 
 .blog-list {
@@ -143,5 +145,9 @@ footer {
 
 .blog-entry-date {
     font-weight: 600;
+    font-size: var(--text-base);
+}
+
+.home-subheading {
     font-size: var(--text-base);
 }

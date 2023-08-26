@@ -19,10 +19,19 @@ p {
 
 blockquote, .callout {
     padding: 1rem;
-    border-left: 3px solid var(--border-accent);
-    background-color: var(--gray-100);
+    border-left: var(--border-width) solid var(--border-accent);
+    background-color: var(--blue-100);
 }
 
 blockquote > * + * {
-    margin-top: var(--vlow-space, 1em);
+    margin-top: var(--flow-space, 1em);
+}
+
+summary {
+    padding: 0.5rem 1rem;
+}
+
+.details-wrapper {
+    padding: 1rem;
+    background-color: var(--blue-100);
 }
