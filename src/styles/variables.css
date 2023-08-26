@@ -25,6 +25,11 @@
     --font-base: Figtree, sans-serif; 
 
 
+    /* Header logo Variables */
+
+    --header-logo-spacing: 2rem;
+    --header-logo-bg: var(--base-text);
+
     /* Nested Variables */
 
     --border-accent: var(--gray-400);
