@@ -10,7 +10,7 @@ It starts with an idea. One of those "wouldn't it be cool if I did..." Then I do
 
 For a few years now I've wanted to start my own blog. A blog to house the random thoughts or ideas I had, but also a blog that would teach me a thing or two about static site generators (SSGs) and modern web development techniques along the way. 
 
-It wasn't until this summer that I finally got serious about the idea. I started planning a simple site that a few basic requirements. I had my SSG picked out. I had some basic style ideas I would implement. Then I started doing some research. 
+It wasn't until this summer that I finally got serious about the idea. I started planning a simple site that had a few basic requirements. I had my SSG picked out. I had some basic style ideas I would implement. Then I started doing some research. 
 
 It went something like this: 
 
@@ -36,7 +36,7 @@ It went something like this:
 
 ## Just like that...
 
-I'd spent weeks of my spare time researching content management systems, pretending I needed to learn a new design tool, spending hours on YouTube watching web development techniques, continuously adding complexity. Not all of what I learned was useless, but most of wasn't contributing towards my goal. Instead it made me tired. It didn't sound fun anymore, but more like work. 
+I'd spent weeks of my spare time researching content management systems, pretending I needed to learn a new design tool, spending hours on YouTube watching web development techniques, continuously adding complexity. Not all of what I learned was useless, but most of it wasn't contributing towards my goal. Instead it made me tired. It didn't sound fun anymore, but more like work. 
 
 I was eventually brought back to reality by a Kevin Powell video. To paraphrase: You can spend all this time watching YouTube videos, but at some point you have to start making something.  
 
