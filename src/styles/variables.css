@@ -1,7 +1,7 @@
 :root {
 
     /* Define base colors */
-    --base-text: #37363B;
+    --gray-text: #37363B;
     --gray-100: #f3f4f6;
     --gray-200: #e5e7eb;
     --gray-300: #d1d5db;
@@ -11,6 +11,13 @@
     --gray-700: #374151;
     --gray-800: #1f2937;
     --gray-900: #111827;
+    --blue-100: hsl(215, 36%, 98%);
+    --blue-300: hsl(215, 36%, 59%);
+    --blue-700: hsl(215, 56%, 29%);
+    --blue-text: hsl(215, 56%, 19%);
+
+    --base-text: var(--blue-text);
+
 
     /* Define fluid type font sizes */
     --text-base: clamp(1.13rem, calc(1.08rem + 0.22vw), 1.25rem);
@@ -28,12 +35,15 @@
     /* Header logo Variables */
 
     --header-logo-spacing: 2rem;
-    --header-logo-bg: var(--base-text);
+    --header-logo-bg: var(--link-text);
 
     /* Nested Variables */
 
-    --border-accent: var(--gray-400);
+    --border-accent: var(--blue-300);
+    --border-width: 3px;
 
     --heading-color: var(--gray-500);
+
+    --link-text: var(--blue-text);
 
 }
