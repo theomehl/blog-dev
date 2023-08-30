@@ -1,7 +1,6 @@
 ---
 title: I like to complicate things.
 description: How to turn a hobby project into a chore.  
-date: 2023-08-23
 ---
 
 It starts with an idea. One of those "wouldn't it be cool if I did..." Then I do some research about the thing (I generally enjoy researching things). Then over the next few days, as I learn more and add on to the idea, I turn something that was once simple into a complicated mess of a project. It no longer feels fun. It becomes a daunting chore full of unnecessary requirements I've placed on myself. 
