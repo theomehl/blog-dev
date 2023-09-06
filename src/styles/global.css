@@ -142,6 +142,14 @@ footer> hr {
     padding-top: 2rem;
 }
 
+.blog-list li {
+    --flow-space: 1.5em;
+}
+
+.blog-list p {
+    --flow-space: 0.5em;
+}
+
 
 .blog-entry-date {
     font-weight: 600;
