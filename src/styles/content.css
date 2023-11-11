@@ -10,6 +10,7 @@
 p {
     overflow-wrap: break-word;
     hyphens: auto;
+    color: var(--gray-600);
 }
 
 .post-header {
