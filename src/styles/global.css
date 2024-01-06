@@ -23,7 +23,6 @@ blockquote, body, dd, dl, figure, h1, h2, h3, h4, p {
 
 h1, h2, h3, h4 {
     font-weight: 800;
-    font-variation-settings: "wght" 800;
     line-height: 1.1;
     text-wrap: balance;
     --flow-space: 1.25em;
@@ -94,7 +93,6 @@ footer> hr {
     text-decoration: none;
     font-size: 1.5rem;
     font-weight: 900;
-    font-variation-settings: "wght" 900;
     display: flex;
     position: relative;
     --header-logo-first-color: #fff;
@@ -155,7 +153,6 @@ footer> hr {
 
 .blog-entry-date {
     font-weight: 600;
-    font-variation-settings: "wght" 600;
     font-size: var(--text-base);
 }
 
