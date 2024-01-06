@@ -14,6 +14,7 @@ module.exports = function(eleventyConfig) {
 	});
 
     eleventyConfig.addPassthroughCopy("./src/fonts");
+    eleventyConfig.addPassthroughCopy('./favicon.png');
 
     return {
       dir: {
