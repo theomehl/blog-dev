@@ -22,7 +22,7 @@ blockquote, body, dd, dl, figure, h1, h2, h3, h4, p {
 /* Base Element Styles */
 
 h1, h2, h3, h4 {
-    font-weight: 900;
+    font-weight: 800;
     line-height: 1.1;
     text-wrap: balance;
     --flow-space: 1.25em;
