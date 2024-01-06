@@ -82,7 +82,10 @@ footer> hr {
 
 .nav-list > ul {
     display: flex;
-    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: end;
+    column-gap: 1.25rem;
+    row-gap: 0.75rem;
     margin: 0;
     list-style: none;
 }
