@@ -38,7 +38,7 @@ As a perfectionist, it's hard to be ok with good enough. But for me, it has been
 
 Good enough might mean I stop worrying about the tiny details of a photo. I'm posting it to Instagram and nobody is going to notice. 
 
-It might mean I don't need expensive bookbinding-specific needles yet. Yarn darner needles from Walmart will get the job done. 
+It might mean I don't need bookbinding-specific needles yet. Yarn darner needles from Walmart will get the job done. 
 
 It might mean the return on investment to go that last 10% and make it perfect isn't worth the effort required. 
 
