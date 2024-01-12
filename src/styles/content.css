@@ -14,18 +14,18 @@ p {
 }
 
 .post-header {
-    margin-bottom: 3rem;
+    margin-block-end: 3rem;
     --flow-space: 0.75em;
 }
 
 blockquote, .callout {
     padding: 1rem;
-    border-left: var(--border-width) solid var(--border-accent);
+    border-inline-start: var(--border-width) solid var(--border-accent);
     background-color: var(--blue-100);
 }
 
 blockquote > * + * {
-    margin-top: var(--flow-space, 1em);
+    margin-block-start: var(--flow-space, 1em);
 }
 
 summary {
