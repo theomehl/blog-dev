@@ -33,7 +33,7 @@
     column-gap: 1.25rem;
     row-gap: 0.75rem;
     margin: 0;
-    list-style: none;
+    list-style: "";
 }
 
 /* Header logo */
@@ -89,7 +89,7 @@
 .blog-list {
     padding-inline-start: 0;
     padding-block-start: 2rem;
-    list-style: none;
+    list-style: "";
 }
 
 .blog-list li {
@@ -110,4 +110,24 @@
 
 .home-subheading {
     font-size: var(--text-base);
+}
+
+/* Note List */
+
+.note-list {
+    padding-inline-start: 0;
+    padding-block-start: 2rem;
+    list-style: "";
+}
+
+.note-list li {
+    --flow-space: 1.5em;
+    background-color: var(--blue-100);
+    padding: 2rem; 
+    margin-inline: -2rem;
+}
+
+.note-list h2 {
+    font-size: var(--text-md);
+    text-wrap: unset;
 }
