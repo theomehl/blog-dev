@@ -131,3 +131,10 @@
     font-size: var(--text-md);
     text-wrap: unset;
 }
+
+/* Footer Wrapper */
+
+.footer-wrapper {
+    display: flex; 
+    justify-content: space-between;
+}

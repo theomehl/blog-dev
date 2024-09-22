@@ -13,6 +13,10 @@ p {
     color: var(--gray-600);
 }
 
+ul, ol {
+    color: var(--gray-600);
+}
+
 .post-header {
     margin-block-end: 3rem;
     --flow-space: 0.75em;

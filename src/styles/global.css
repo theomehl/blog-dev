@@ -52,3 +52,9 @@ footer {
 footer> hr {
     border-top: 1px solid var(--gray-400);
 }
+
+footer a {
+    color: var(--gray-600);
+    text-decoration-color: var(--gray-400);
+    text-decoration-thickness: 0.15em;
+}
