@@ -1,7 +1,7 @@
-const CleanCSS = require("clean-css");
-const { DateTime } = require("luxon");
+import CleanCSS from "clean-css";
+import { DateTime } from "luxon";
 
-module.exports = function(eleventyConfig) {
+export default function(eleventyConfig) {
     // Return your Object options:
 
     eleventyConfig.addFilter("cssmin", function(code) {
