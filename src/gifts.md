@@ -1,5 +1,10 @@
-# Presents
-In no particular order: 
+---
+layout: layouts/single-page.njk
+title: Gifts
+description: Gifts
+---
+
+Don't know what to get me? Here are some ideas in no particular order: 
 
 
 - Size small t-shirts in [heather purple](https://trueclassictees.com/products/heather-purple-crew-neck-t-shirt), [heather indigo](https://trueclassictees.com/products/heather-indigo-crew-neck-t-shirt)
