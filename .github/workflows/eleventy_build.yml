@@ -11,7 +11,7 @@ jobs:
         with:
           install_dependencies: true
       - name: Deploy
-        uses: peaceiris/actions-gh-pages@v4
+        uses: peaceiris/actions-gh-pages@v3
         with:
           publish_dir: public 
           publish_branch: gh-pages
